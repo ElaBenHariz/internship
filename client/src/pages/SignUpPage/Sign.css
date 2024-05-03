@@ -1,0 +1,89 @@
+
+.sign{
+    min-height: 100vh;
+    flex-shrink: 0;
+    background-color: #0D0D0D;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sign hr{
+    width: 37%;
+    height: 0rem;
+    background: #656565;
+    margin: 0;
+}
+.sign img{
+    max-width: 50%;
+    height: auto;
+    object-fit: cover;
+flex-shrink: 0;
+}
+.sign h5{
+    color: #D7D7D7;
+font-family: Raleway;
+font-size: 1.6875rem;
+font-style: normal;
+font-weight: 450;
+line-height: normal;
+text-transform: capitalize;
+margin:0;
+padding: 1.3rem;
+}
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+}
+.inputAndlabels{
+    min-width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap:1rem;
+}
+.form label{
+    color: #FFF;
+text-align: center;
+font-family: Poppins;
+font-size: 1.16rem;
+}
+.form input{
+    color:#FFF;
+    font-family: Poppins;
+    font-size: 1.1rem;
+    width: 90%;
+    height:  3rem;
+    border-radius: 0.3125rem;
+    border: 1px solid #FFF;
+    background-color:#0D0D0D;
+flex-shrink: 0;
+
+}
+.form button{
+    color: #FFF;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 1rem;
+    width: 90%;
+    height:  3rem;
+    border-radius: 0.4375rem;
+    background: linear-gradient(90deg, rgba(14, 14, 14, 0.95) 0%, rgba(41, 41, 41, 0.95) 100%);
+}
+.login{
+    color:#FFF;
+    padding: 10px;
+}
+.login a {
+    padding: 1rem;
+    color: #FFF;
+  }
+  .errorLabel{
+    display: none;
+}
+.show{
+    display: flex;
+    flex-direction: row;
+}
