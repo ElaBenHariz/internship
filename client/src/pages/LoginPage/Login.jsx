@@ -68,7 +68,7 @@ function Login() {
         <label  className={`errorLabel ${showPasswordError ? 'show' : ''}`} >please enter a valid password !</label>
         <label   className={`errorLabel  ${IsEmptyPass ? 'show': '' }`} > Empty Field ! </label>
         </div>
-        <button onClick={loggging}> Sign in </button>
+        <button onClick={loggging}> SIGN IN </button>
         </div>
 
         <div className='signup'>
